@@ -8,9 +8,8 @@ import { FaSquareTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className='flex flex-row items-center justify-around mt-1 p-5'>
+    <div className='flex flex-row items-center justify-around mt-4 p-5'>
     <div className=''>
-        
         <h1 className='text-6xl'>Hanumant <br /> Kalhale</h1>
         <p className='text-justify text-xl text-zinc-600 p-1'>A passionate about software developement. <p className='text-2xl text-purple-500'>Full Stack Developer</p> </p>
        <div className='bg-indigo-300 w-20 rounded hover:bg-indigo-400 hover:font-semibold'>
