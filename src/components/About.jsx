@@ -2,7 +2,7 @@ import { FaHandshakeSimple } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className='mt-5 ml-24 about-container pr-10'>
+    <section id="About" className='mt-5 ml-24 about-container pr-10 '>
         <h2 className="underline text-zinc-800">About</h2>
         <p>
       Hello! I’m a passionate Full-Stack Developer with a knack for building robust and scalable web applications. With expertise in both front-end and back-end technologies, I thrive on crafting seamless user experiences and solving complex technical challenges.
@@ -16,9 +16,9 @@ const About = () => {
     <p>
       Let’s collaborate and bring innovative ideas to life!
     </p>
-    <a href="#contact" className="text-xl text-zinc-800 no-underline font-semibold">Get in Touch <FaHandshakeSimple />
+    <a href="#Contact" className="text-xl text-zinc-800 no-underline font-semibold">Get in Touch <FaHandshakeSimple />
     </a>
-    </div>
+    </section>
   )
 }
 

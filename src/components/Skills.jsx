@@ -19,11 +19,11 @@ import { SiWebstorm } from "react-icons/si";
 
 const Skills = () => {
     return (
-        <div className='mt-5 ml-24 mb-10'>
+        <section id="Skills" className='mt-5 ml-24 mb-10'>
             <h2>Skills</h2>
             <p>follwing are the technologies I've and I'm Learning... </p>
            
-        <div className="flex gap-24 mb-2 flex items-center justify-center">
+        <div className="flex gap-24 mb-2 flex items-center justify-center card3 sticky top-[15vh]">
             <div className="gap-4 mt-2 ">
             <h3 className="text-zinc-500">Full Stack Development</h3>
             <div className="flex flex-row items-center gap-4">
@@ -103,7 +103,7 @@ const Skills = () => {
             </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 
