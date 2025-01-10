@@ -26,7 +26,7 @@ export default function Contact() {
     };
   
     return (
-      <section id="Contact">
+      <section id="Contact" className="">
             <div className='mt-20 ml-80 w-80 h-20 bg-zinc-100 border-zinc-950 rounded text-3xl font-semibold flex items-center justify-center'> Contact Me</div> 
             <p className="ml-80">Submit the form below to get in touch with me</p>
      <div className="ml-80  flex items-center justify-center mt-20 mb-20 shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-600 w-80 h-80">
