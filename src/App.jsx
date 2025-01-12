@@ -5,9 +5,6 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-import { Router,Routes, Route } from "react-router-dom"
-import gsap from "gsap"
-import { useEffect } from "react"
 const App = () => {
 
  
